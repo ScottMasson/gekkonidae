@@ -1,0 +1,6 @@
+/node_modules
+/tests
+/source
+.DS_Store
+.npmignore
+rollup.config.js

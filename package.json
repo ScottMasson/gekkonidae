@@ -1,0 +1,36 @@
+{
+  "name": "gekkonidae",
+  "version": "0.0.2",
+  "description": "javascript library",
+  "type": "module",
+  "main": "src/gekkonidae.cjs.min.js",
+  "exports": {
+    ".": {
+      "import": "./src/gekkonidae.esm.min.js",
+      "require": "./src/gekkonidae.cjs.min.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottMasson/gekkonidae.git"
+  },
+  "keywords": [
+    "JavaScript Library",
+    "Cryptology",
+    "Regex"
+  ],
+  "author": "scottmasson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScottMasson/gekkonidae/issues"
+  },
+  "homepage": "https://github.com/ScottMasson/gekkonidae#readme",
+  "devDependencies": {
+    "gekkonidae": "^0.0.2",
+    "rollup": "^4.24.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
