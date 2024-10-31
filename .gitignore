@@ -3,4 +3,5 @@
 /source
 .DS_Store
 .npmignore
+test.js
 rollup.config.js

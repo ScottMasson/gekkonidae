@@ -1,6 +1,6 @@
 {
   "name": "gekkonidae",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript library",
   "type": "module",
   "main": "src/gekkonidae.cjs.min.js",
@@ -20,7 +20,8 @@
   "keywords": [
     "JavaScript Library",
     "Cryptology",
-    "Regex"
+    "Regex",
+    "DOM"
   ],
   "author": "scottmasson",
   "license": "MIT",
@@ -29,6 +30,9 @@
   },
   "homepage": "https://github.com/ScottMasson/gekkonidae#readme",
   "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@rollup/plugin-babel": "^6.0.4",
     "gekkonidae": "^0.0.2",
     "rollup": "^4.24.0",
     "rollup-plugin-terser": "^7.0.2"

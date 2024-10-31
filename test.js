@@ -1,44 +1,24 @@
-import gekkonidae from "gekkonidae";
+import gekkonidae from "./source/index.js";
+
+const text = new gekkonidae.bytes.Text
+
+// const result = text.document('html','.html').TOC({
+//     a:3,
+//     c:5
+// })
+
+// console.log(result)
+
+// text.addClass().width()
 
 
-/** 
- - Test Obj
- */
+// text
+// .document('document div')
+// .addClass('a1 a2')
+// .extend(true,{a:1,b:2},{a:10,c:3})
+// .addClass()
+// .width()
 
- const obj = new gekkonidae.base.Obj
 
- // extend
- 
- let obj1 = {a: 1};
- let obj2 = {b: 2};
- let obj3 = {c: 3};
- let obj4 = {
-     level1: {
-         level2: {
-             value1: 1
-         }
-     }
- };
- let obj5 = {
-     level1: {
-         level2: {
-             value2: 2
-         },
-         level3: {
-             value3: 3
-         },
-         level4: [1,2,3,4,5]
-     }
- };
- 
- const mergeObj = obj.merge(true,obj1,obj2,obj3,obj4,obj5)
- 
- console.log(mergeObj)
- 
- 
- /** 
-  - Test Of 
-  */
- 
-  const of = new gekkonidae.base.Of
-  console.log(of.plainObject({}))
+
+console.log(gekkonidae.Query)
