@@ -18,7 +18,3 @@ const text = new gekkonidae.bytes.Text
 // .extend(true,{a:1,b:2},{a:10,c:3})
 // .addClass()
 // .width()
-
-
-
-console.log(gekkonidae.Query)

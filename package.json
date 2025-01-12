@@ -1,8 +1,7 @@
 {
   "name": "gekkonidae",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "javascript library",
-  "type": "module",
   "main": "src/gekkonidae.cjs.min.js",
   "exports": {
     ".": {
